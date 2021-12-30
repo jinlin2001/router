@@ -1,10 +1,10 @@
 ### App Overview
 
-Application was inspired by a friend helping food delivery at a busy restaurant. Often, he must manually sort out delivering sequences and may not be the most efficient sequence. This web app is intent to solve the problem.
+This web application produces the shortest distance route from inputs of an origin, a destination, and one or more route stops. The application was inspired by food delivery personnel at restaurants, this web application can help plan the best route by distance.
 
-This app calls Google Distance Matrix API and Geocoding API for distance metrics between user input addresses. With the responded metrics, app then runs implemented algorithm to output the shortest distance path.
+This application calls Google Distance Matrix API and Geocoding API for distance metrics. With response metrics, the application then runs implemented algorithm to solve for the shortest distance route.
 
-App scripts are trans-piled targeting latest browsers. Internet Explorer is not supported.
+Application scripts are trans-piled targeting the latest browsers. Internet Explorer is not supported.
 
 ### Fullscreen Layout
 
@@ -14,5 +14,5 @@ App scripts are trans-piled targeting latest browsers. Internet Explorer is not 
 
 ![mobile layout](https://github.com/jinlin2001/portfolio/blob/main/public/route-2.png)
 
-Live app:  
+Live App:  
 [https://router-46be8.firebaseapp.com/](https://router-46be8.firebaseapp.com/)
